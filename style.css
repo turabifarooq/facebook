@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Segoe UI";
+}
+div.wrapper{
+    background-color: #3e5c9c;
+    width: 100%;
+    border: 1px solid red;
+    height: 80px;
+    /* float: left; */
+}
+div.wrapper::after{
+    /* content: " "; display: block; clear: both; */
+}
+div.name{
+    /* width: 12%;
+    border: 1px solid red;
+    background-color: green;
+    height: 50px; */
+    float: left;
+}
+div.name > p{
+    padding-left: 60px;
+    padding-top: 30px;
+    color:  white;
+    font-size: 34px;
+    font-weight: bold;
+    
+}
+div.name::after{
+    content: " "; display: block; clear: both;
+}
+div.form{
+    /* border: 1px solid green; */
+    /* background-color: greenyellow; */
+    float: right;
+    width: 40%;
+    height: 50px;
+    padding-top: 10px;
+}
+form.first{
+    float: left;
+    margin-right: 20px;
+}
+label{
+    margin-bottom: 10px;
+}
+#botton{
+   background-color: #4c78b9;
+}
+div.body{
+
+}
+
+div.textandImage{
+    width: 35%;
+    height: 30px;
+    /* background-color: greenyellow; */
+    margin-left: 120px;
+    margin-top: 50px;
+    float: left;
+}
+div.text{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #3e383a;
+}
+div.formsecond{
+    width: 50%;
+    margin-top: 50px;
+    /* margin-left: ; */
+    /* background-color: greenyellow; */
+    height: 200px;
+    float: right;
+}
+div.text2 > p#account{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+
