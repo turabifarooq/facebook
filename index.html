@@ -20,7 +20,7 @@
                 <label for="password">Password</label>
                 <br />
                 <input type="password">
-                <input id="button" type="submit" name="login" value="login">
+                <button id="login">Log In</button>
             </form>
         </div>
     </div>
@@ -34,7 +34,7 @@
             </div>
 
         </div>
-    </div>
+    
     <div class="formsecond">
         <div class="text2">
             <p id="account">Create an account</p>
@@ -42,19 +42,26 @@
         </div>
         <div class="form2">
             <form id="formsignup" action="">
-                <input id="formfirstname" type="text">
-                <input id="formsurname" type="text">
+                <input id="formfirstname" type="text" placeholder="First Name">
+                <input id="formsurname" type="text" placeholder="Sur Name">
                 <br />
-                <input id="formnum" type="number">
+                <input id="formnum" type="text" placeholder="Mobile number or email address">
                 <br />
-                <input type="password"><br />
-                <label for="">Birthday</label><br />
-                <input type="date"><br />
-                <input type="radio"><label for="">Female</label>
-                <input type="radio"><label for="">Male</label>
-                <input type="radio"><label for="">Custom</label>
+                <input id="formpass"type="password" placeholder="New password"><br />
+                <label class="labeltext1" for="">Birthday</label><br />
+                <input id="date" type="date"><br />
+                <label class="labeltext1" for="">Gender</label><br />
+                <input class="radio" type="radio" name="gender"><label for="">Female</label>
+                <input class="radio" type="radio" name="gender"><label for="">Male</label>
+                <input class="radio" type="radio" name="gender"><label for="">Custom</label>
             </form>
+            <p id="link1">By clicking Sign Up, you agree to our <a href="https://www.facebook.com/legal/terms/update">Terms</a>, <a href="https://www.facebook.com/about/privacy/update">Data Policy</a> and 
+               <a href="https://www.facebook.com/policies/cookies/">Cookie Policy.</a> You may receive SMS notifications from us and 
+               can opt out at any time.</p>
+            <button  id="signup">Sign Up</button>
+            <p id="link2"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Create a Page</a> for a celebrity, band or business.</p>
         </div>
     </div>
+</div>
 </body>
 </html>

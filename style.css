@@ -6,7 +6,7 @@
 div.wrapper{
     background-color: #3e5c9c;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 80px;
     /* float: left; */
 }
@@ -21,10 +21,10 @@ div.name{
     float: left;
 }
 div.name > p{
-    padding-left: 60px;
-    padding-top: 30px;
+    padding-left: 310px;
+    padding-top: 16px;
     color:  white;
-    font-size: 34px;
+    font-size: 40px;
     font-weight: bold;
     
 }
@@ -39,6 +39,10 @@ div.form{
     height: 50px;
     padding-top: 10px;
 }
+label{
+    color: white;
+    font-size: 11px;
+}
 form.first{
     float: left;
     margin-right: 20px;
@@ -50,15 +54,18 @@ label{
    background-color: #4c78b9;
 }
 div.body{
-
+    background-color: #D5DAE9;
+    /* width: 100%; */
+    /* height: 1000px; */
+    /* border: 1px solid rebeccapurple; */
 }
 
 div.textandImage{
     width: 35%;
     height: 30px;
     /* background-color: greenyellow; */
-    margin-left: 120px;
-    margin-top: 50px;
+    margin-left: 300px;
+    margin-top: 35px;
     float: left;
 }
 div.text{
@@ -66,10 +73,15 @@ div.text{
     font-weight: bold;
     font-size: 20px;
     color: #3e383a;
+    width: 500px;
+}
+div.img{
+    margin-left: 10px;
 }
 div.formsecond{
-    width: 50%;
-    margin-top: 50px;
+    width: 40%;
+    margin-right: 100px;
+    margin-top: 10px;
     /* margin-left: ; */
     /* background-color: greenyellow; */
     height: 200px;
@@ -79,5 +91,97 @@ div.text2 > p#account{
     font-weight: bold;
     font-size: 35px;
     margin-bottom: 7px;
+    color: #333333;
 }
-
+div.form2 > p#link1{
+    font-size: 11px;
+    width: 34%;
+}
+div.form2 > p#link2{
+    font-size: 13px;
+}
+form#formsignup{
+    margin-top: 20px;
+}
+input#formfirstname{
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding: 7px;
+    border: 1px solid #BDC7D8;
+    border-width: thin;
+    outline: none;
+    border-radius: 4px;
+    width: 170px;
+}
+input#formsurname{
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding: 7px;
+    border: 1px solid #BDC7D8;
+    border-width: thin;
+    outline: none;
+    border-radius: 4px;
+    width: 170px;
+}
+input#formnum{
+    width: 365px;
+    border: 1px solid #BDC7D8;
+    border-width: thin;
+    padding: 7px;
+    outline: none;
+    border-radius: 4px;
+}
+input#formpass{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 365px;
+    border: 1px solid #BDC7D8;
+    border-width: thin;
+    padding: 7px;
+    outline: none;
+    border-radius: 4px;
+}
+label.labeltext1{
+    padding-top: 10px;
+    color: #90949C;
+    font-weight: bold;
+}
+input#date{
+    margin-bottom: 10px;
+}
+input.radio{
+    margin: 20px;
+}
+p#link1{
+    color: #90949C;
+    width: 400px;
+}
+button#signup{
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    color: white;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #5C9549;
+    border-radius: 5px;
+    border: 1px solid #3B6E22;
+}
+p#link2{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: #385898;
+    font-weight: bold;
+}
+button#login{
+    color: white;
+    background-color: #385898;
+    border: 1px solid black;
+    padding: 4px;
+    margin-left: 4px;
+    font-size: 11px;
+    width: 60px;
+    font-weight: bold;
+}
